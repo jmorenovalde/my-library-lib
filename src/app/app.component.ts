@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { MyLibraryService } from 'my-library';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'my-library-lib';
+
+  constructor(private myLibraryService: MyLibraryService) { }
+
+  public onClickFunction($event: any): void {
+    this.myLibraryService.setValue('Button Clicked');
+  }
 }
