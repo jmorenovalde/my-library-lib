@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { MyLibraryService } from 'my-library';
+import { MyLibraryService } from '@mynamespace/my-library';
 
 @Component({
   selector: 'app-root',

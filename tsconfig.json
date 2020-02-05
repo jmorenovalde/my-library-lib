@@ -19,10 +19,10 @@
       "dom"
     ],
     "paths": {
-      "my-library": [
+      "@mynamespace/my-library": [
         "dist/my-library"
       ],
-      "my-library/*": [
+      "@mynamespace/my-library/*": [
         "dist/my-library/*"
       ]
     }
