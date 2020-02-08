@@ -18,11 +18,33 @@ npm install
 
 ## Run the project
 
-To run the project write in the console
+First, you need to biuld the library. For that type:
+
+```bash
+ng b my-library
+```
+
+To run the project type in the console
+
 ```bash
 ng serve
 ```
 or 
+
 ```bash
 npm run start
+```
+
+## Test
+
+To run the test of the library, type:
+
+```bash
+ng test my-library
+```
+
+To run the test of the project, type:
+
+```bash
+ng test
 ```
